@@ -32,14 +32,20 @@ $animal = $mysqli_result_object->fetch_assoc();
 
 // Echo out the animal name as the page title
 echo "<h1>" . $animal['name'] . "</h1>";
+echo "<h3>Sound of the " . $animal['name'] . "</h3>";
+echo "<audio controls>";
+echo "<source src='" . $animal['sound'] . "' type='audio/mpeg'>";
+echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
+echo "</audio><br>";
+echo "<h3>Lifespan: " . $animal['lifespan'] . " </h3>";
+echo "<img class='swdphoto' src='" . $animal['photo'] . "'>";
 echo "<h3>Description of the " . $animal['name'] . "</h3>";
 echo "<p>" . $animal['description'] . "</p>";
 echo "<hr>";
 echo "<h3>Attributes of the " . $animal['name'] . "</h3>";
 echo "<p>" . $animal['attributes'] . "</p>";
 echo "<hr>";
-echo "<h3>Photo of the " . $animal['name'] . "</h3>";
-echo "<img class='swdphoto' src='" . $animal['photo'] . "'>";
+
 
 include_once('html_end.php');
  ?>

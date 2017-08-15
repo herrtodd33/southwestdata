@@ -45,7 +45,7 @@ echo "<hr>";
 echo "<h3>Attributes of the " . $bird['name'] . "</h3>";
 echo "<p>" . $bird['attributes'] . "</p>";
 echo "<hr>";
-echo "<h3>Photo of the " . $bird['name'] . "</h3>";
+
 
 
 include_once('html_end.php');
