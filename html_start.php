@@ -26,6 +26,6 @@
   </style>
 </head>
 <body>
-  <a href="/"><img style="max-width:300px; width:100%;" src="/pictures/swd_logo.png"></a>
-  <br>
-  <hr>
+<a href="/"><img style="max-width:300px; width:100%;" src="/pictures/swd_logo.png"></a>
+<br>
+<hr>
