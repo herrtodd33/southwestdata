@@ -11,7 +11,7 @@
   }
   .swdphoto {
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 10px;
     width: 100%;
     max-width: 500px;
   }
