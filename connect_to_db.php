@@ -5,4 +5,4 @@
 // pass: ferrari308
 //  db: swd
 // Connect to database
-$database_connection = new mysqli("localhost", "root", "", "swd");
+$database_connection = new mysqli("localhost", "root", "ferrari308", "swd");

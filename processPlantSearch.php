@@ -1,4 +1,5 @@
 <?php
+include_once('html_start.php');
 $searchterm = $_POST['searchterm'];
 
 echo "<h1>Results</h1>";
@@ -47,3 +48,4 @@ foreach($associative_array_of_plants as $plant) {
 
 // End the table
 echo "</table>";
+include_once('html_end.php');

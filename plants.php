@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>SouthWest Data</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+<?php
+include_once('html_start.php');
+?>
 <h1>Plants</h1>
 <a href="index.php">Go back home</a>
 <hr>
@@ -43,6 +39,6 @@ foreach($associative_array_of_plants as $plant) {
 
 // End the table
 echo "</table>";
- ?>
-</body>
-</html>
+
+include_once('html_end.php');
+?>

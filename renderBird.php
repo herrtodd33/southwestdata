@@ -32,7 +32,13 @@ $bird = $mysqli_result_object->fetch_assoc();
 
 // Echo out the bird name as the page title
 echo "<h1>" . $bird['name'] . "</h1>";
+echo "<h3>Sound of the " . $bird['name'] . "</h3>";
+echo "<audio controls>";
+echo "<source src='" . $bird['sound'] . "' type='audio/mpeg'>";
+echo "<p><a href='" . $bird['sound'] . "'>download sound</a></p>";
+echo "</audio><br>";
 echo "<h3>Lifespan: " . $bird['lifespan'] . " </h3>";
+echo "<img class='swdphoto' src='" . $bird['photo'] . "'>";
 echo "<h3>Description of the " . $bird['name'] . "</h3>";
 echo "<p>" . $bird['description'] . "</p>";
 echo "<hr>";
@@ -40,7 +46,7 @@ echo "<h3>Attributes of the " . $bird['name'] . "</h3>";
 echo "<p>" . $bird['attributes'] . "</p>";
 echo "<hr>";
 echo "<h3>Photo of the " . $bird['name'] . "</h3>";
-echo "<img class='swdphoto' src='" . $bird['photo'] . "'>";
+
 
 include_once('html_end.php');
  ?>
