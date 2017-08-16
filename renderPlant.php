@@ -39,7 +39,7 @@ echo "<hr>";
 echo "<h3>Attributes of the " . $plant['name'] . "</h3>";
 echo "<p>" . $plant['attributes'] . "</p>";
 echo "<hr>";
-echo "<h3>Photo of the " . $plant['name'] . "</h3>";
+
 
 
 include_once('html_end.php');
