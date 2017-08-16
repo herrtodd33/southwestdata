@@ -24,6 +24,13 @@
     color: #1976D2;
   }
   </style>
+  <link href="/embedjs/embed.css" rel="stylesheet">
+	<meta property="og:url"                content="http://southwestdata.info/" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="South West Data" />
+	<meta property="og:description"        content="Provides information about plants, animals, and more from the Southwestern United States." />
+	<meta property="og:image"              content="/pictures/swd_logo.png" />
+
 </head>
 <body>
 <a href="/"><img style="max-width:300px; width:100%;" src="/pictures/swd_logo.png"></a>
