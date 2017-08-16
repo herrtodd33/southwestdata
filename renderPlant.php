@@ -32,6 +32,7 @@ $plant = $mysqli_result_object->fetch_assoc();
 
 // Echo out the plant name as the page title
 echo "<h1>" . $plant['name'] . "</h1>";
+echo "<img class='swdphoto' src='" . $plant['photo'] . "'>";
 echo "<h3>Description of the " . $plant['name'] . "</h3>";
 echo "<p>" . $plant['description'] . "</p>";
 echo "<hr>";
@@ -39,7 +40,6 @@ echo "<h3>Attributes of the " . $plant['name'] . "</h3>";
 echo "<p>" . $plant['attributes'] . "</p>";
 echo "<hr>";
 echo "<h3>Photo of the " . $plant['name'] . "</h3>";
-echo "<img class='swdphoto' src='" . $plant['photo'] . "'>";
 
 
 include_once('html_end.php');
