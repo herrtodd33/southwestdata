@@ -15,7 +15,7 @@ $get_plants_sql = "SELECT * FROM plants WHERE id = " . $plant_id;
 $mysqli_result_object = $database_connection->query($get_plants_sql);
 
 // Echo out a go home link
-echo "<a href='index.php'>Go to Home Page</a><br>";
+echo "<a href='index.php'>Go to Home Page</a><br><br>";
 
 // Echo out a go back link
 echo "<a href='plants.php'>Go Back to All Plants</a><br>";

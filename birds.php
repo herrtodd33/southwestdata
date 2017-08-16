@@ -34,7 +34,7 @@ foreach($associative_array_of_birds as $bird) {
   echo "</td>";
   echo "<td>";
   echo "<a href='renderBird.php?id=" . $bird['id'] . "'>";
-  echo "<img style='width:100px; height:100px; border-radius:12px;' src='" . $bird['photo'] . "'></a><br><br>";
+  echo "<img style='width:130px; height:130px; border-radius:12px;' src='" . $bird['photo'] . "'></a><br><br>";
   echo "</td>";
 
   echo "</tr>";

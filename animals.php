@@ -34,7 +34,7 @@ foreach($associative_array_of_animals as $animal) {
   echo "</td>";
   echo "<td>";
   echo "<a href='renderAnimal.php?id=" . $animal['id'] . "'>";
-  echo "<img style='width:100px; height:100px; border-radius:12px;' src='" . $animal['photo'] . "'></a><br><br>";
+  echo "<img style='width:130px; height:130px; border-radius:12px;' src='" . $animal['photo'] . "'></a><br><br>";
   echo "</td>";
   echo "</tr>";
 }

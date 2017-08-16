@@ -15,7 +15,7 @@ $get_animals_sql = "SELECT * FROM animals WHERE id = " . $animal_id;
 $mysqli_result_object = $database_connection->query($get_animals_sql);
 
 // Echo out a go home link
-echo "<a href='index.php'>Go to Home Page</a><br>";
+echo "<a href='index.php'>Go to Home Page</a><br><br>";
 
 // Echo out a go back link
 echo "<a href='animals.php'>Go Back to All Animals</a><br>";
