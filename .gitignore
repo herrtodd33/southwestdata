@@ -1,2 +1,3 @@
 .ssh/
 connect_to_db.php
+get_password.php
