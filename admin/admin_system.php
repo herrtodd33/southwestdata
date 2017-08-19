@@ -29,7 +29,7 @@ if($login == $password) {
         </tr>
         <?php
         // Include the database connection file
-        include_once('connect_to_db.php');
+        include_once('../connect_to_db.php');
         // Set's up $database_connection object
 
         // The SQL for getting a list of plants from the database
