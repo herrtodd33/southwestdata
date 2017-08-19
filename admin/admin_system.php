@@ -1,6 +1,6 @@
 <?php
 // Get the password function from the server
-include('get_password.php');
+include('../get_password.php');
 // Get the password from the function
 $password = getPassword();
 // Get the attempted login from the user
@@ -19,11 +19,13 @@ if($login == $password) {
             <td>Picture</td>
         </tr>
         <tr>
-            <td>(autogen)</td>
-            <td><input type="text" name="name" placeholder="Name"></td>
-            <td><input type="text" name="description" placeholder="Description"></td>
-            <td><input type="text" name="attributes" placeholder="Attributes"></td>
-            <td><input type="text" name="picture" placeholder="Picture URL"></td>
+            <form action="/admin/add_plant.php" method="POST">
+                <td>(autogen)</td>
+                <td><input type="text" name="name" placeholder="Name"></td>
+                <td><input type="text" name="description" placeholder="Description"></td>
+                <td><input type="text" name="attributes" placeholder="Attributes"></td>
+                <td><input type="text" name="picture" placeholder="Picture URL"></td>
+            </form>
         </tr>
         <?php
         // Include the database connection file
