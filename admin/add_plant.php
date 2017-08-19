@@ -10,7 +10,7 @@ $attributes = $_POST['attributes'];
 // Get the new name
 $photo =  $_POST['photo'];
 // The SQL for getting a list of plants from the database
-$add_plants_sql = "INSERT INTO plants ('id', 'name', 'description', 'attributes', 'photo') VALUES(NULL, '$name', '$description', '$attributes', '$photo')";
+$add_plants_sql = "INSERT INTO plants (`name`, `description`, `attributes`, `photo`) VALUES('$name', '$description', '$attributes', '$photo')";
 // Run the SQL to Add the plant
 if ($database_connection->query($add_plants_sql) === TRUE) {
     echo "New plant added successfully";
