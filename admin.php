@@ -1,6 +1,6 @@
 <html>
 <body>
-<form action="/admin_system.php">
+<form action="/admin_system.php" method="POST">
     Enter password: <input type="password" name="password">
     <input type="submit" value="Access">
 </form>
