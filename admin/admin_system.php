@@ -16,7 +16,7 @@ if($login == $password) {
             <td>Name</td>
             <td>Description</td>
             <td>Attributes</td>
-            <td>Picture</td>
+            <td>Photo</td>
         </tr>
         <tr>
             <form action="/admin/add_plant.php" method="POST">
@@ -24,7 +24,7 @@ if($login == $password) {
                 <td><input type="text" name="name" placeholder="Name"></td>
                 <td><input type="text" name="description" placeholder="Description"></td>
                 <td><input type="text" name="attributes" placeholder="Attributes"></td>
-                <td><input type="text" name="picture" placeholder="Picture URL"></td>
+                <td><input type="text" name="photo" placeholder="Photo URL"></td>
             </form>
         </tr>
         <?php
