@@ -20,7 +20,7 @@ if($login == $password) {
         </tr>
         <tr>
             <form action="/admin/add_plant.php" method="POST">
-                <td>(autogen)</td>
+                <td>(autogen) <input type="submit" value="add"></td>
                 <td><input type="text" name="name" placeholder="Name"></td>
                 <td><input type="text" name="description" placeholder="Description"></td>
                 <td><input type="text" name="attributes" placeholder="Attributes"></td>
