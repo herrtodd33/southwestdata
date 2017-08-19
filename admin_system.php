@@ -1,6 +1,6 @@
 <?php
 // Get the password function from the server
-include('/get_password');
+include('get_password.php');
 // Get the password from the function
 $password = getPassword();
 // Get the attempted login from the user
