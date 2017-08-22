@@ -122,7 +122,6 @@ if($login == $password) {
             echo $animal["sound"];
             echo "</td>";
             echo "<td>";
-
         }
         ?>
     </table>
