@@ -7,7 +7,7 @@ $name = $_POST['name'];
 $description = $_POST['description'];
 // Get the new attributes
 $attributes = $_POST['attributes'];
-// Get the new name
+// Get the new photo
 $photo =  $_POST['photo'];
 // The SQL for getting a list of plants from the database
 $add_plants_sql = "INSERT INTO plants (`name`, `description`, `attributes`, `photo`) VALUES('$name', '$description', '$attributes', '$photo')";

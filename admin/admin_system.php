@@ -83,7 +83,7 @@ if($login == $password) {
                 <td><input type="text" name="description" placeholder="Description"></td>
                 <td><input type="text" name="attributes" placeholder="Attributes"></td>
                 <td><input type="text" name="photo" placeholder="Photo URL"></td>
-                <td><input type="text" name="lifespan" placeholder="Lifespan URL"></td>
+                <td><input type="text" name="lifespan" placeholder="Lifespan"></td>
                 <td><input type="text" name="sound" placeholder="Sound URL"></td>
             </form>
         </tr>

@@ -7,12 +7,12 @@ $name = $_POST['name'];
 $description = $_POST['description'];
 // Get the new attributes
 $attributes = $_POST['attributes'];
-// Get the new name
+// Get the new photo
 $photo =  $_POST['photo'];
 // Get the new lifespan
-$photo =  $_POST['lifespan'];
+$lifespan =  $_POST['lifespan'];
 // Get the new sound
-$photo =  $_POST['sound'];
+$sound =  $_POST['sound'];
 // The SQL for getting a list of animals from the database
 $add_animals_sql = "INSERT INTO animals (`name`, `description`, `attributes`, `photo`, `lifespan`, `sound`)
 VALUES('$name', '$description', '$attributes', '$photo', '$lifespan', '$sound' )";
