@@ -132,3 +132,4 @@ if($login == $password) {
     // Incorrect login display error
     echo "Incorrect login...";
 }
+?>
