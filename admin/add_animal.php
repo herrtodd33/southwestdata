@@ -15,10 +15,6 @@ $lifespan =  $_POST['lifespan'];
 $sound =  $_POST['sound'];
 // The SQL for getting a list of animals from the database
 $add_animals_sql = "INSERT INTO animals (`name`, `description`, `attributes`, `photo`, `lifespan`, `sound`) VALUES('$name', '$description', '$attributes', '$photo', '$lifespan', '$sound' )";
-echo "<audio controls>";
-echo "<source src='" . $animal['sound'] . "' type='audio/mpeg'>";
-echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
-echo "</audio><br>";
 // Run the SQL to Add the animal
 if ($database_connection->query($add_animals_sql) === TRUE) {
     // Return success message
