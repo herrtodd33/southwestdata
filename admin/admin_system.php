@@ -77,7 +77,7 @@ if($login == $password) {
             <td>Sound</td>
         </tr>
         <tr>
-            <form action="/admin/add_.php" method="POST">
+            <form action="/admin/animal_.php" method="POST">
                 <td>(autogen) <input type="submit" value="add"></td>
                 <td><input type="text" name="name" placeholder="Name"></td>
                 <td><input type="text" name="description" placeholder="Description"></td>
@@ -138,7 +138,7 @@ if($login == $password) {
             <td>Sound</td>
         </tr>
         <tr>
-            <form action="/admin/add_.php" method="POST">
+            <form action="/admin/bird_.php" method="POST">
                 <td>(autogen) <input type="submit" value="add"></td>
                 <td><input type="text" name="name" placeholder="Name"></td>
                 <td><input type="text" name="description" placeholder="Description"></td>
