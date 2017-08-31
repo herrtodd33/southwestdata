@@ -126,6 +126,66 @@ if($login == $password) {
         ?>
     </table>
 
+    <h2>Birds</h2>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Attributes</td>
+            <td>Photo</td>
+            <td>Lifespan</td>
+            <td>Sound</td>
+        </tr>
+        <tr>
+            <form action="/admin/add_.php" method="POST">
+                <td>(autogen) <input type="submit" value="add"></td>
+                <td><input type="text" name="name" placeholder="Name"></td>
+                <td><input type="text" name="description" placeholder="Description"></td>
+                <td><input type="text" name="attributes" placeholder="Attributes"></td>
+                <td><input type="text" name="photo" placeholder="Photo URL"></td>
+                <td><input type="text" name="lifespan" placeholder="Lifespan"></td>
+                <td><input type="text" name="sound" placeholder="Sound URL"></td>
+            </form>
+        </tr>
+        <?php
+        // The SQL for getting a list of birds from the database
+        $get_birds_sql = "SELECT * FROM birds ORDER BY name ASC";
+
+        // Run the SQL
+        $mysqli_result_object = $database_connection->query($get_birds_sql);
+
+        // Get an associative array from the result object
+        $associative_array_of_birds = $mysqli_result_object->fetch_all(MYSQLI_ASSOC);
+
+        // Loop through each of the birds and make the links to the bird render page
+        foreach($associative_array_of_birds as $bird) {
+            echo "<tr>";
+            echo "<td>";
+            echo $bird["id"];
+            echo "</td>";
+            echo "<td>";
+            echo $bird["name"];
+            echo "</td>";
+            echo "<td>";
+            echo $bird["description"];
+            echo "</td>";
+            echo "<td>";
+            echo $bird["attributes"];
+            echo "</td>";
+            echo "<td>";
+            echo "<img style='width:30px; height:30px; border-radius:3px;' src='" . $bird['photo'] . "'><br><i>" . $bird['photo'] . "</i>";
+            echo "</td>";
+            echo "<td>";
+            echo $bird["lifespan"];
+            echo "</td>";
+            echo "<td>";
+            echo $bird["sound"];
+            echo "</td>";
+            echo "</tr>";
+        }
+        ?>
+    </table>
 
     <?php
 } else {
