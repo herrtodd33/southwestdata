@@ -115,13 +115,13 @@ if($login == $password) {
             echo "<td>";
             echo "<img style='width:30px; height:30px; border-radius:3px;' src='" . $animal['photo'] . "'><br><i>" . $animal['photo'] . "</i>";
             echo "</td>";
-            echo "</tr>";
+            echo "</td>";
             echo $animal["lifespan"];
             echo "</td>";
             echo "<td>";
             echo $animal["sound"];
             echo "</td>";
-            echo "<td>";
+            echo "</tr>";
         }
         ?>
     </table>
