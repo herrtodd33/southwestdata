@@ -5,7 +5,7 @@ include_once('html_start.php');
   <a href="index.php">Go back home</a>
   <hr>
   <form action="processAnimalSearch.php" method="POST">
-    <input type="text" name="searchterm" size="50" placeholder="Enter animal name or part of the animal name" autofocus>
+    <input type="text" name="searchterm" size="50" placeholder="Enter mammal name or part of the mammal name" autofocus>
     <input type="submit" value="Search">
   </form>
 <?php
