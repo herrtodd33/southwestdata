@@ -1,7 +1,7 @@
 <?php
 include_once('html_start.php');
 ?>
-  <h1>Search for a Animal</h1>
+  <h1>Search for a Mammal</h1>
   <a href="index.php">Go back home</a>
   <hr>
   <form action="processAnimalSearch.php" method="POST">
