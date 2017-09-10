@@ -1,7 +1,7 @@
 <?php
 include_once('html_start.php');
 ?>
-<h1>Animals</h1>
+<h1>Mammals</h1>
 <a href="index.php">Go back home</a>
 <hr>
 <h5>Click on photo below</h5>
@@ -10,7 +10,7 @@ include_once('html_start.php');
 include_once('connect_to_db.php');
 // Set's up $database_connection object
 
-// The SQL for getting a list of animals from the database
+// The SQL for getting a list of  from the database
 $get_animals_sql = "SELECT * FROM animals ORDER BY name ASC";
 
 // Run the SQL
