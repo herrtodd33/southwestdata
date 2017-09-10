@@ -22,7 +22,7 @@ if($mysqli_result_object->num_rows < 1) {
  die($mysqli_result_object->num_rows . " results were found matching <b>" . $searchterm . "</b>");
 }
 // Echo out a go back link
-echo "<a href='searchAnimal.php'>Go Back to Search Mammals</a><br><br></br>";
+echo "<a href='searchAnimal.php'>Go Back to Search Mammals</a><br><br>";
 
 
 // Get an associative array from the result object
