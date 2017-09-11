@@ -17,6 +17,10 @@ $mysqli_result_object = $database_connection->query($get_birds_sql);
 
 // Check if we got any rows back
 if($mysqli_result_object->num_rows < 1) {
+
+  // Echo out a go back link
+  echo "<a href='searchBird.php'>Go Back to Search Birds</a><br><br>";
+   
   // If we didn't then warn the user!
  die($mysqli_result_object->num_rows . " results were found matching <b>" . $searchterm . "</b>");
 }
