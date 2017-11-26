@@ -29,20 +29,11 @@ if($mysqli_result_object->num_rows < 1) {
 // Get an associative array from the result object
 $animal = $mysqli_result_object->fetch_assoc();
 
-// Code to remove the audio download button
-?>
-<style>
-video::-internal-media-controls-download-button { display:none; }
-video::-webkit-media-controls-enclosure { overflow:hidden; }
-video::-webkit-media-controls-panel { width: calc(100% + 30px); /* Adjust as needed */ }
-</style>
-<?php
-
 // Echo out the animal name as the page title
 echo "<h1>" . $animal['name'] . "</h1>";
 echo "<h3>Sound of the " . $animal['name'] . "</h3>";
-echo "<audio controls>";
-echo "<source src='" . $animal['sound'] . "' type='audio/mpeg' controls controlsList='nodownload'>";
+echo "<audio controls controlsList='nodownload'>";
+echo "<source src='" . $animal['sound'] . "' type='audio/mpeg'>";
 // echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
 echo "</audio><br>";
 echo "<h3>Lifespan: " . $animal['lifespan'] . " </h3>";
