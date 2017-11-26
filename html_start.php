@@ -24,7 +24,6 @@
     color: #1976D2;
   }
   </style>
-  <link href="/embedjs/embed.css" rel="stylesheet">
 	<meta property="og:url"                content="http://southwestdata.info/" />
 	<meta property="og:type"               content="article" />
 	<meta property="og:title"              content="South West Data" />
