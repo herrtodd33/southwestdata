@@ -11,8 +11,9 @@
 <br><br>
 
 <form method="POST" action="/backend/submitsuggestion.php">
-    <textarea placeholder="Enter your suggestion here..." name="suggestion"></textarea>
-    <input type="button" value="Submit Suggestion">
+    <textarea placeholder="Enter your suggestion here..." name="suggestion" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Submit Suggestion">
 </form>
 
 <?php include_once('html_end.php'); ?>
