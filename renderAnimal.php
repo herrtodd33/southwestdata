@@ -35,7 +35,7 @@ echo "<h1>" . $animal['name'] . "</h1>";
 echo "<h3>Sound of the " . $animal['name'] . "</h3>";
 echo "<audio controls>";
 echo "<source src='" . $animal['sound'] . "' type='audio/mpeg'>";
-echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
+// echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
 echo "</audio><br>";
 echo "<h3>Lifespan: " . $animal['lifespan'] . " </h3>";
 echo "<img class='swdphoto' src='" . $animal['photo'] . "'>";
