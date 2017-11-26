@@ -13,6 +13,6 @@ $output = $database_connection->query($add_suggestion_query);
 
 ?>
 
-Submitted suggestion Thank You!
+<h3>Submitted suggestion Thank You!</h3>
 
 <meta http-equiv="refresh" content="3; url=http://southwestdata.info/" />
