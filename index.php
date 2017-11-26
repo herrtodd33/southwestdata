@@ -7,4 +7,12 @@
 <hr>
 <h2><a href="birds.php" class="main-link"><i class="fa fa-twitter" aria-hidden="true"></i> View All Birds</a>
   - <a href="searchBird.php" class="main-link"><i class="fa fa-search"></i> Search for a Bird</a></h2>
+
+<br><br>
+
+<form method="POST" action="/backend/submitsuggestion.php">
+    <textarea placeholder="Enter your suggestion here..." name="suggestion"></textarea>
+    <input type="button" value="Submit Suggestion">
+</form>
+
 <?php include_once('html_end.php'); ?>
