@@ -42,7 +42,7 @@ video::-webkit-media-controls-panel { width: calc(100% + 30px); /* Adjust as nee
 echo "<h1>" . $animal['name'] . "</h1>";
 echo "<h3>Sound of the " . $animal['name'] . "</h3>";
 echo "<audio controls>";
-echo "<source src='" . $animal['sound'] . "' type='audio/mpeg' controlsList='nodownload'>";
+echo "<source src='" . $animal['sound'] . "' type='audio/mpeg' controls controlsList='nodownload'>";
 // echo "<p><a href='" . $animal['sound'] . "'>download sound</a></p>";
 echo "</audio><br>";
 echo "<h3>Lifespan: " . $animal['lifespan'] . " </h3>";
