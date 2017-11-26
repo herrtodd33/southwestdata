@@ -33,7 +33,7 @@ $bird = $mysqli_result_object->fetch_assoc();
 // Echo out the bird name as the page title
 echo "<h1>" . $bird['name'] . "</h1>";
 echo "<h3>Sound of the " . $bird['name'] . "</h3>";
-echo "<audio controls>";
+echo "<audio controls controlsList='nodownload'>";
 echo "<source src='" . $bird['sound'] . "' type='audio/mpeg'>";
 echo "<p><a href='" . $bird['sound'] . "'>download sound</a></p>";
 echo "</audio><br>";
