@@ -11,7 +11,8 @@ $add_suggestion_query = "INSERT INTO `swd`.`suggestions` (`suggestion`) VALUES (
 // Run the SQL
 $output = $database_connection->query($add_suggestion_query);
 
-print_r($output);
 ?>
 
 Submitted suggestion!
+
+<meta http-equiv="refresh" content="0; url=http://southwestdata.info/" />
