@@ -6,11 +6,12 @@ include_once('../connect_to_db.php');
 // Set's up $database_connection object
 
 // The SQL for getting a list of animals from the database
-$add_suggestion_query = "INSERT INTO suggestions (id, suggestion) VALUES (NULL, " . $suggestion . ")";
+$add_suggestion_query = "INSERT INTO `swd`.`suggestions` (`suggestion`) VALUES ('" . $suggestion . "')";
 
 // Run the SQL
-$database_connection->query($add_suggestion_query);
+$output = $database_connection->query($add_suggestion_query);
 
+print_r($output);
 ?>
 
 Submitted suggestion!
