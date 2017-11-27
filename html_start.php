@@ -4,7 +4,7 @@
   <title>Southwest Data</title>
 
   <table>
-  <tr><td><img src="southwestdata/pictures/cowboyhome.jpg" width="200" height="200">
+  <tr><td><img src="/cowboyhome.jpg" width="200" height="200">
   </td></td>
   </table>
 
