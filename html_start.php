@@ -4,10 +4,10 @@
   <title>Southwest Data</title>
 
   <table>
-  <tr><td><img src="cowboyhome.jpg" width="200" height="200">
+  <tr><td><img src="southwestdata/pictures/cowboyhome.jpg" width="200" height="200">
   </td></td>
   </table>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style>
