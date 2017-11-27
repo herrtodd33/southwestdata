@@ -15,9 +15,4 @@ $output = $database_connection->query($add_suggestion_query);
 
 <h3>Submitted suggestion Thank You!</h3> <br>
 
-<table>
-<tr><td><img src="cowboyhome.jpg" width="200" height="200">
-</td></td>
-</table>
-
-<meta http-equiv="refresh" content="6; url=http://southwestdata.info/" />
+<meta http-equiv="refresh" content="3; url=http://southwestdata.info/" />
