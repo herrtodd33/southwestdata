@@ -20,4 +20,4 @@ $output = $database_connection->query($add_suggestion_query);
 </td></td>
 </table>
 
-<meta http-equiv="refresh" content="3; url=http://southwestdata.info/" />
+<meta http-equiv="refresh" content="6; url=http://southwestdata.info/" />
