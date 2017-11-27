@@ -1,4 +1,10 @@
 <?php include_once('html_start.php'); ?>
+
+<table>
+<tr><td><img src="/cowboyhome.jpg" width="100" height="100">
+</td></td>
+</table>
+
 <h2><a href="plants.php" class="main-link"><i class="fa fa-tree" aria-hidden="true"></i> View All Plants</a>
   - <a href="searchPlant.php" class="main-link"><i class="fa fa-search"></i> Search for a Plant</a></h2>
 <hr>
