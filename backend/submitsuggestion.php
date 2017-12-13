@@ -13,12 +13,16 @@ $output = $database_connection->query($add_suggestion_query);
 
 ?>
 
-<h3>Submitted suggestion Thank You!</h3> <br>
+<h3>Submitted suggestion Thank You!</h3>
+
+<br>
 
 <table>
-<tr><td><img src="/checkmark.jpg" width="100" height="100">
-</td></td>
+  <tr>
+    <td>
+      <img src="/checkmark.jpg" width="100" height="100">
+    </td>
+  </tr>
 </table>
-
 
 <meta http-equiv="refresh" content="3; url=http://southwestdata.info/" />
